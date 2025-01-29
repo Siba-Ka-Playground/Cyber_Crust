@@ -1,0 +1,130 @@
+.light {
+  background-image: linear-gradient(to left, #ebe9ef, #661cb8);
+}
+.dark {
+  background-image: linear-gradient(to left, #000000, #3d0978);
+}
+.nav_bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 25px;
+  background-image: linear-gradient(to right, #230c50, #661cb8);
+  border-bottom: 2px solid white;
+}
+.nav_bar_dark {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 25px;
+  background-image: linear-gradient(to right, #431c91, #5405ad);
+  border-bottom: 2px solid white;
+}
+#cc {
+  padding: 5px;
+  transition: transform 2s ease-in-out;
+}
+#cc:hover {
+  transform: rotate(360deg);
+}
+.panel {
+  margin-left: 20px;
+  font-weight: bolder;
+  color: white;
+  text-decoration-line: none;
+}
+.panel:hover {
+  background-color: white;
+  color: #230c50;
+  padding: 5px;
+  border-radius: 20px;
+}
+.panel:active {
+  background-color: white;
+  color: #ff0000;
+  padding: 5px;
+  border-radius: 20px;
+}
+#icon {
+  margin-left: 200px;
+}
+.marquee {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+.topic {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+.heading {
+  text-align: center;
+}
+.main-content {
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgba(245, 245, 245, 0.288);
+  border-radius: 10px;
+}
+.doc_D {
+  color: whitesmoke;
+  background-image: linear-gradient(to left, #000000, #3d0978);
+}
+#cia {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.foot {
+  background-color: rgb(0 0 0 / 68%);
+  text-align: center;
+  margin-top: 5px;
+}
+#con {
+  margin-bottom: 10px;
+  margin-top: 15px;
+  color: white;
+}
+.contact {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#insta,
+#gmail,
+#utube {
+  padding-left: 8px;
+}
+.locate {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 426px) {
+  .nav_bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #230c50, #661cb8);
+    border-bottom: 2px solid white;
+  }
+  .nav_bar_dark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #431c91, #5405ad);
+    border-bottom: 2px solid white;
+  }
+  #icon {
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,30 @@
+body {
+  background-image: linear-gradient(to left, #ebe9ef, #661cb8);
+}
+
+.detail {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 80%), 0 6px 20px 0 rgb(0 0 0 / 79%);
+  background-color: #1976d21f;
+  display: flex;
+  font-weight: bold;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: fit-content;
+  margin: auto;
+  margin-top: 150px;
+  align-items: center;
+}
+.log_data {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#name,
+button {
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #000000ad;
+  color: white;
+  margin-top: 5px;
+}

@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Cyber Crust</title>
+    <link
+      rel="stylesheet"
+      href="Home.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
+  <body class="light">
+    <nav class="nav_bar">
+      <img
+        id="cc"
+        src="Logo_S.png"
+        width="80"
+        height="80"
+      />
+      <a
+        class="panel"
+        href="Home.html"
+        >HOME</a
+      >
+      <a
+        class="panel"
+        href="Documentation.html"
+        >DOCUMENTATION</a
+      >
+      <a
+        class="panel"
+        href="About.html"
+        >ABOUT</a
+      >
+      <a
+        class="panel"
+        href="Update.html"
+        >UPDATES</a
+      >
+      <img
+        id="icon"
+        src="dark.png"
+        width="40"
+        height="40"
+      />
+      <img
+        id="logout"
+        src="Power-L.png"
+        width="40"
+        height="40"
+      />
+      <h1 id="profile">WELCOME</h1>
+    </nav>
+    <div class="marquee">
+      <marquee
+        direction="left"
+        behavior="scroll"
+      >
+        // Get Knowledge About Security Policies in CyberSpace & Protect Your
+        Assert in Cyber Space. //
+      </marquee>
+    </div>
+    <div class="slider-container">
+      <div class="slider">
+        <img
+          src="Banner1.png"
+          class="banner"
+          alt="Image 1"
+        />
+        <img
+          src="Banner2.png"
+          class="banner"
+          alt="Image 2"
+        />
+        <img
+          src="Banner3.png"
+          class="banner"
+          alt="Image 3"
+        />
+      </div>
+    </div>
+    <div class="welcome">
+      <h1
+        class="wel_C"
+        id="wel_C"
+      >
+        BE AWARE , AVOID SCAMS !!
+      </h1>
+      <img
+        id="f_logo"
+        src="Logo_S.png"
+        width="300"
+        height="300"
+      />
+      <h1 class="wel_C">
+        Welcome to "CyberCrust", your trusted resource for staying safe
+        online.<br />
+        Our mission is to educate individuals and organizations on the
+        importance of cybersecurity and provide practical tips to protect
+        against ever-evolving threats.
+      </h1>
+    </div>
+    <h1 class="rd-map"><u>Career Path RoadMap</u></h1>
+    <form action="#">
+      <table>
+        <tr>
+          <td
+            colspan="3"
+            class="main-topic"
+          >
+            Cyber Security Roadmap
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button
+              class="sub-topic"
+              onclick="basicNetworking()"
+            >
+              Networking Basics
+            </button>
+          </td>
+          <td class="chapter">
+            OSI Model, TCP/IP Stack, DNS, HTTP, HTTPS, FTP, SMTP, etc.
+            Subnetting, IP addressing, and routing, Firewalls, VPNs, and Proxies
+          </td>
+        </tr>
+        <tr>
+          <td class="main-topic">Strengthen Your Core Skill</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button
+              class="sub-topic"
+              onclick="UpcomingNotes()"
+            >
+              Linux
+            </button>
+          </td>
+          <td class="chapter">
+            File system navigation, User management, Permissions and file
+            security, Network configuration, Programming Language.
+          </td>
+        </tr>
+        <tr class="gap"></tr>
+        <tr>
+          <td></td>
+          <td>
+            <button
+              class="sub-topic"
+              onclick="UpcomingNotes()"
+            >
+              Common Security Concepts
+            </button>
+          </td>
+          <td class="chapter">
+            CIA Triad, AAA, Security Policies, Risk Management, and Threat
+            Models
+          </td>
+        </tr>
+        <tr>
+          <td class="main-topic">
+            Deepen Your Knowledge of Security Fundamentals
+          </td>
+          <td>
+            <button
+              class="sub-topic"
+              onclick="UpcomingNotes()"
+            >
+              Cryptography
+            </button>
+          </td>
+          <td class="chapter">
+            encryption, hashing algorithms, secure communication protocols like
+            SSL/TLS
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button
+              class="sub-topic"
+              onclick="UpcomingNotes()"
+            >
+              Security Frameworks and Standards
+            </button>
+          </td>
+          <td class="chapter">NIST, ISO/IEC 27001, SOC 2, and others.</td>
+        </tr>
+        <tr class="gap"></tr>
+        <tr>
+          <td></td>
+          <td>
+            <button
+              class="sub-topic"
+              onclick="UpcomingNotes()"
+            >
+              Ethical Hacking / Penetration Testing
+            </button>
+          </td>
+          <td class="chapter">
+            Learn tools like Metasploit & Burp Suite, OWASP Top 10, SQL
+            Injection, XSS, etc.
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button
+              class="sub-topic"
+              onclick="UpcomingNotes()"
+            >
+              Incident Response & Forensics
+            </button>
+          </td>
+          <td class="chapter">
+            Learn about handling security breaches and analyzing compromised
+            systems.
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button
+              class="sub-topic"
+              onclick="UpcomingNotes()"
+            >
+              Security Operations / SOC
+            </button>
+          </td>
+          <td class="chapter">
+            Learn about SIEM systems (Security Information and Event
+            Management), such as Splunk, ELK stack.
+          </td>
+        </tr>
+        <tr>
+          <td class="main-topic">Specialized Areas to Explore</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button
+              class="sub-topic"
+              onclick="UpcomingNotes()"
+            >
+              Network Security
+            </button>
+          </td>
+          <td class="chapter">
+            Study firewalls, intrusion detection systems (IDS), and intrusion
+            prevention systems (IPS).
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button
+              class="sub-topic"
+              onclick="UpcomingNotes()"
+            >
+              Web Application Security
+            </button>
+          </td>
+          <td class="chapter">
+            Dive into web app security topics like input validation, session
+            management, and common web application vulnerabilities.
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button
+              class="sub-topic"
+              onclick="UpcomingNotes()"
+            >
+              Cloud Security
+            </button>
+          </td>
+          <td class="chapter">
+            Understand how to secure cloud platforms (AWS, Azure, GCP).
+          </td>
+        </tr>
+        <tr class="gap"></tr>
+        <tr>
+          <td></td>
+          <td>
+            <button
+              class="sub-topic"
+              onclick="UpcomingNotes()"
+            >
+              CTF Challenges
+            </button>
+          </td>
+          <td class="chapter">Hack The Box, TryHackMe, OverTheWire</td>
+        </tr>
+        <tr>
+          <td class="main-topic">Practical Hands-on Practice</td>
+          <td>
+            <button
+              class="sub-topic"
+              onclick="UpcomingNotes()"
+            >
+              Home Lab Setup
+            </button>
+          </td>
+          <td class="chapter">
+            VirtualBox or VMware for creating isolated environments, Kali Linux,
+            Metasploit, Burp Suite, Wireshark
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button
+              class="sub-topic"
+              onclick="UpcomingNotes()"
+            >
+              Bug Bounty Programs
+            </button>
+          </td>
+          <td class="chapter">Explore platforms like - HackerOne, Bugcrowd</td>
+        </tr>
+        <tr class="gap"></tr>
+        <tr>
+          <td>
+            <button
+              class="sub-topic"
+              onclick="UpcomingNotes()"
+            >
+              Certifications and Education
+            </button>
+          </td>
+          <td class="chapter">
+            CompTIA Security+, Certified Ethical Hacker (CEH), Offensive
+            Security Certified Professional (OSCP), Certified Information
+            Systems Security Professional (CISSP), etc.
+          </td>
+        </tr>
+        <tr class="gap"></tr>
+        <tr>
+          <td></td>
+          <td>
+            <button
+              class="sub-topic"
+              onclick="UpcomingNotes()"
+            >
+              Follow Industry News
+            </button>
+          </td>
+          <td class="chapter">
+            Follow blogs, Read Security News websites (Krebs on Security, Dark
+            Reading etc.)
+          </td>
+        </tr>
+        <tr>
+          <td class="main-topic">Stay Up-to-Date</td>
+          <td>
+            <button
+              class="sub-topic"
+              onclick="UpcomingNotes()"
+            >
+              Attend Conferences
+            </button>
+          </td>
+          <td class="chapter">
+            Conferences like DEF CON, Black Hat, and local meetups are excellent
+            for networking and learning the latest in security.
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button
+              class="sub-topic"
+              onclick="UpcomingNotes()"
+            >
+              Join Cybersecurity Communities
+            </button>
+          </td>
+          <td class="chapter">
+            Engage in discussions on platforms like Twitter, LinkedIn, Reddit,
+            or cybersecurity-specific forums (e.g., NetSec, Null Byte)
+          </td>
+        </tr>
+        <tr class="gap"></tr>
+        <tr>
+          <td>
+            <button
+              class="sub-topic"
+              onclick="UpcomingNotes()"
+            >
+              Build a Portfolio
+            </button>
+          </td>
+          <td class="chapter">
+            Create your Portfolio, Upload your projects and codes in Github,
+            write Blog post, etc.
+          </td>
+        </tr>
+      </table>
+    </form>
+    <div>
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+      <div class="line4"></div>
+      <div class="line5"></div>
+      <div class="line6"></div>
+      <div class="line7"></div>
+      <div class="line8"></div>
+      <div class="line9"></div>
+      <div class="line10"></div>
+      <div class="line11"></div>
+      <div class="line12"></div>
+      <div class="line13"></div>
+      <div class="line14"></div>
+      <div class="line15"></div>
+      <div class="line16"></div>
+      <div class="line17"></div>
+      <div class="line18"></div>
+      <div class="line19"></div>
+      <div class="line20"></div>
+      <div class="line21"></div>
+      <div class="line22"></div>
+      <div class="line23"></div>
+      <div class="line24"></div>
+      <div class="line25"></div>
+      <div class="line26"></div>
+      <div class="line27"></div>
+      <div class="line28"></div>
+      <div class="line29"></div>
+      <div class="line30"></div>
+      <div class="line31"></div>
+      <div class="line32"></div>
+      <div class="line33"></div>
+      <div class="line34"></div>
+      <div class="line35"></div>
+      <div class="line36"></div>
+      <div class="line37"></div>
+      <div class="line38"></div>
+      <div class="line39"></div>
+      <div class="line40"></div>
+      <div class="line41"></div>
+      <div class="line42"></div>
+      <div class="line43"></div>
+    </div>
+    <div class="summary">
+      <img
+        src="CS RMB.png"
+        class="banner"
+        alt="Image 1"
+      />
+    </div>
+    <footer class="foot">
+      <h1 id="con">Contact Us</h1>
+      <div class="contact">
+        <a
+          href="#"
+          target="_blank"
+          ><img
+            id="fbook"
+            src="FB-D.png"
+            onmouseover="this.src='FB-L.png';"
+            onmouseout="this.src='FB-D.png';"
+            width="40"
+            height="40"
+        /></a>
+        <a
+          href="https://www.instagram.com/cyber.crust"
+          target="_blank"
+          ><img
+            id="insta"
+            src="Insta_D.png"
+            onmouseover="this.src='Insta_L.png';"
+            onmouseout="this.src='Insta_D.png';"
+            width="40"
+            height="40"
+        /></a>
+        <a
+          href="https://cybercrust315@gmail.com"
+          target="_blank"
+          ><img
+            id="gmail"
+            src="Gmail_D.png"
+            onmouseover="this.src='Gmail_L.png';"
+            onmouseout="this.src='Gmail_D.png';"
+            width="40"
+            height="40" /></a
+        ><a
+          href="https://youtube.com/@cybercrust-315?si=18NxG2Xi562ZNzxa"
+          target="_blank"
+          ><img
+            id="utube"
+            src="Utube_D.png"
+            onmouseover="this.src='Utube_L.png';"
+            onmouseout="this.src='Utube_D.png';"
+            width="40"
+            height="40"
+        /></a>
+      </div>
+      <div class="locate">
+        <a
+          class="panel"
+          href="Home.html"
+          >HOME</a
+        >
+        <a
+          class="panel"
+          href="Documentation.html"
+          >DOCUMENTATION</a
+        >
+        <a
+          class="panel"
+          href="About.html"
+          >ABOUT</a
+        >
+        <a
+          class="panel"
+          href="Update.html"
+          >UPDATES</a
+        >
+      </div>
+    </footer>
+    <script src="Home.js"></script>
+    <script src="Main.js"></script>
+  </body>
+</html>

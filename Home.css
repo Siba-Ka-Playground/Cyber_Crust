@@ -1,0 +1,796 @@
+.light {
+  background-image: linear-gradient(to left, #ebe9ef, #661cb8);
+}
+.dark {
+  background-image: linear-gradient(to left, #000000, #3d0978);
+}
+.nav_bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 25px;
+  background-image: linear-gradient(to right, #230c50, #661cb8);
+  border-bottom: 2px solid white;
+}
+.nav_bar_dark {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 25px;
+  background-image: linear-gradient(to right, #431c91, #5405ad);
+  border-bottom: 2px solid white;
+}
+#cc {
+  padding: 5px;
+  transition: transform 2s ease-in-out;
+}
+#cc:hover {
+  transform: rotate(360deg);
+}
+.panel {
+  margin-left: 20px;
+  font-weight: bolder;
+  color: white;
+  text-decoration-line: none;
+}
+.panel:hover {
+  background-color: white;
+  color: #230c50;
+  padding: 5px;
+  border-radius: 20px;
+}
+.panel:active {
+  background-color: white;
+  color: #ff0000;
+  padding: 5px;
+  border-radius: 20px;
+}
+#profile {
+  color: white;
+  font-size: 25px;
+  margin-left: 10px;
+}
+#icon {
+  margin-left: 150px;
+}
+#logout {
+  margin-left: 20px;
+}
+.marquee {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+.banner {
+  margin-top: 8px;
+  padding: 3px;
+  width: 1500px;
+  height: 300px;
+}
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.welcome {
+  display: flex;
+}
+.welcome_d {
+  color: white;
+  display: flex;
+}
+.wel_C {
+  text-align: center;
+  width: 500px;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+#wel_C {
+  font-size: 69px;
+}
+#f_logo {
+  transition: transform 2s ease-in-out;
+  margin-top: 25px;
+}
+#f_logo:hover {
+  transform: rotate(360deg);
+}
+.rd-map {
+  text-align: center;
+}
+.rd-map-d {
+  text-align: center;
+  color: whitesmoke;
+}
+table {
+  display: flex;
+  justify-content: center;
+}
+.gap {
+  height: 50px;
+}
+.sub-topic {
+  background-color: #fd6101;
+  box-sizing: border-box;
+  padding: 4px;
+  height: 60px;
+  width: 260px;
+  margin-right: 80px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  display: grid;
+  text-align: center;
+  align-content: center;
+}
+.sub-topic:hover {
+  background-color: rgba(255, 89, 0, 0.959);
+  border-color: #ffffff;
+  color: whitesmoke;
+}
+.main-topic {
+  background-color: #e3ef03f8;
+  box-sizing: border-box;
+  padding: 4px;
+  height: 60px;
+  width: 260px;
+  margin-top: 10px;
+  font-size: 18px;
+  display: grid;
+  text-align: center;
+  align-content: center;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.chapter {
+  background-color: rgb(255, 0, 0);
+  box-sizing: border-box;
+  padding: 4px;
+  width: 260px;
+  margin-top: 10px;
+  font-size: 18px;
+  display: grid;
+  text-align: center;
+  align-content: center;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+/* Flowchart Line Starts Here */
+.line1,
+.line2,
+.line3,
+.line4,
+.line5,
+.line6,
+.line7 {
+  position: absolute;
+  width: 2px;
+  background-color: #ffffff;
+  left: 410px;
+}
+.line1 {
+  height: 142px;
+  top: 971px;
+}
+.line2 {
+  height: 255px;
+  top: 1171px;
+}
+.line3 {
+  height: 432px;
+  top: 1484px;
+}
+.line4 {
+  height: 424px;
+  top: 1974px;
+}
+.line5 {
+  height: 225px;
+  top: 2457px;
+}
+.line6 {
+  height: 187px;
+  top: 2741px;
+}
+.line7 {
+  height: 227px;
+  top: 2986px;
+}
+.line8,
+.line9,
+.line10,
+.line11,
+.line12,
+.line13,
+.line14,
+.line15,
+.line16,
+.line17,
+.line18,
+.line19,
+.line20,
+.line21,
+.line23,
+.line24,
+.line25 {
+  position: absolute;
+  width: 2px;
+  background-color: #f6ea06;
+}
+.line8 {
+  height: 120px;
+  left: 586px;
+  top: 1032px;
+  transform: rotate(45deg);
+}
+.line9 {
+  height: 120px;
+  left: 586px;
+  top: 1117px;
+  transform: rotate(135deg);
+}
+.line10 {
+  height: 120px;
+  left: 586px;
+  top: 1350px;
+  transform: rotate(45deg);
+}
+.line11 {
+  height: 87px;
+  left: 586px;
+  top: 1414px;
+  transform: rotate(90deg);
+}
+.line12 {
+  height: 120px;
+  left: 586px;
+  top: 1445px;
+  transform: rotate(135deg);
+}
+.line13 {
+  height: 275px;
+  left: 589px;
+  top: 1674px;
+  transform: rotate(198deg);
+}
+.line14 {
+  height: 164px;
+  left: 592px;
+  top: 1757px;
+  transform: rotate(206deg);
+}
+.line15 {
+  height: 128px;
+  left: 588px;
+  top: 1831px;
+  transform: rotate(221deg);
+}
+.line16 {
+  height: 120px;
+  left: 586px;
+  top: 1945px;
+  transform: rotate(135deg);
+}
+.line17 {
+  height: 196px;
+  left: 586px;
+  top: 1950px;
+  transform: rotate(154deg);
+}
+.line18 {
+  height: 273px;
+  left: 586px;
+  top: 1956px;
+  transform: rotate(162deg);
+}
+.line19 {
+  height: 120px;
+  left: 586px;
+  top: 2328px;
+  transform: rotate(45deg);
+}
+.line20 {
+  height: 87px;
+  left: 586px;
+  top: 2395px;
+  transform: rotate(102deg);
+}
+.line21 {
+  height: 133px;
+  left: 586px;
+  top: 2414px;
+  transform: rotate(140deg);
+}
+.line23 {
+  height: 120px;
+  left: 586px;
+  top: 2856px;
+  transform: rotate(45deg);
+}
+.line24 {
+  height: 87px;
+  left: 586px;
+  top: 2923px;
+  transform: rotate(102deg);
+}
+.line25 {
+  height: 140px;
+  left: 586px;
+  top: 2942px;
+  transform: rotate(140deg);
+}
+.line22,
+.line26,
+.line27,
+.line28,
+.line29,
+.line30,
+.line31,
+.line32,
+.line33,
+.line34,
+.line35,
+.line36,
+.line37,
+.line38,
+.line39,
+.line40,
+.line41,
+.line42,
+.line43 {
+  position: absolute;
+  height: 2px;
+  width: 84px;
+  left: 889px;
+  background-color: #ff0000;
+}
+.line22 {
+  width: 84px;
+  left: 546px;
+  top: 2712px;
+}
+.line26 {
+  width: 84px;
+  left: 546px;
+  top: 3243px;
+}
+.line27 {
+  top: 1040px;
+}
+.line28 {
+  top: 1230px;
+}
+.line29 {
+  top: 1375px;
+}
+.line30 {
+  top: 1465px;
+}
+.line31 {
+  top: 1540px;
+}
+.line32 {
+  top: 1680px;
+}
+.line33 {
+  top: 1760px;
+}
+.line34 {
+  top: 1860px;
+}
+.line35 {
+  top: 2030px;
+}
+.line36 {
+  top: 2130px;
+}
+.line37 {
+  top: 2230px;
+}
+.line38 {
+  top: 2350px;
+}
+.line39 {
+  top: 2450px;
+}
+.line40 {
+  top: 2545px;
+}
+.line41 {
+  top: 2880px;
+}
+.line42 {
+  top: 2980px;
+}
+.line43 {
+  top: 3100px;
+}
+/* Flowchart Line Ends Here */
+.foot {
+  background-color: rgb(0 0 0 / 68%);
+  text-align: center;
+  margin-top: 5px;
+}
+#con {
+  margin-bottom: 10px;
+  margin-top: 15px;
+  color: white;
+}
+.contact {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#insta,
+#gmail,
+#utube {
+  padding-left: 8px;
+}
+.locate {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 426px) {
+  .nav_bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #230c50, #661cb8);
+    border-bottom: 2px solid white;
+  }
+  .nav_bar_dark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #431c91, #5405ad);
+    border-bottom: 2px solid white;
+  }
+  #icon,
+  #logout {
+    margin-left: 0px;
+  }
+
+  .welcome {
+    display: flex;
+    flex-direction: column;
+  }
+  .welcome_d {
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  .wel_C {
+    text-align: center;
+    width: 300px;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+  #wel_C {
+    text-align: center;
+    font-size: 47px;
+  }
+  #f_logo {
+    transition: transform 2s ease-in-out;
+    margin-top: 25px;
+    margin-left: 35px;
+  }
+  .banner {
+    margin-top: 6px;
+    width: 395px;
+    height: 90px;
+  }
+  .main-topic {
+    box-sizing: border-box;
+    padding: 4px;
+    height: 80px;
+    width: 123px;
+    margin-top: 10px;
+    font-size: 16px;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+  .chapter {
+    box-sizing: border-box;
+    padding: 4px;
+    height: 80px;
+    width: 110px;
+    margin-top: 10px;
+    font-size: 9px;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+  .sub-topic {
+    box-sizing: border-box;
+    padding: 2px;
+    height: 70px;
+    width: 114px;
+    margin-top: 10px;
+    margin-right: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    display: grid;
+    text-align: center;
+    align-content: center;
+  }
+  /* Flowchart Line Starts Here */
+  .line1,
+  .line2,
+  .line3,
+  .line4,
+  .line5,
+  .line6,
+  .line7 {
+    position: absolute;
+    width: 2px;
+    background-color: #ffffff;
+    left: 70px;
+  }
+  .line1 {
+    height: 103px;
+    top: 1650px;
+  }
+  .line2 {
+    height: 255px;
+    top: 1834px;
+  }
+  .line3 {
+    height: 432px;
+    top: 2170px;
+  }
+  .line4 {
+    height: 430px;
+    top: 2680px;
+  }
+  .line5 {
+    height: 173px;
+    top: 3189px;
+  }
+  .line6 {
+    height: 162px;
+    top: 3430px;
+  }
+  .line7 {
+    height: 183px;
+    top: 3670px;
+  }
+  .line8,
+  .line9,
+  .line10,
+  .line11,
+  .line12,
+  .line13,
+  .line14,
+  .line15,
+  .line16,
+  .line17,
+  .line18,
+  .line19,
+  .line20,
+  .line21,
+  .line23,
+  .line24,
+  .line25 {
+    position: absolute;
+    width: 2px;
+    left: 300px;
+    background-color: #f6ea06;
+  }
+  .line8 {
+    height: 46px;
+    left: 146px;
+    top: 1722px;
+    transform: rotate(45deg);
+  }
+  .line9 {
+    height: 46px;
+    left: 146px;
+    top: 1814px;
+    transform: rotate(135deg);
+  }
+  .line10 {
+    height: 55px;
+    left: 146px;
+    top: 2052px;
+    transform: rotate(45deg);
+  }
+  .line11 {
+    height: 30px;
+    left: 145px;
+    top: 2111px;
+    transform: rotate(90deg);
+  }
+  .line12 {
+    height: 43px;
+    left: 144px;
+    top: 2156px;
+    transform: rotate(135deg);
+  }
+  .line13 {
+    height: 275px;
+    left: 135px;
+    top: 2328px;
+    transform: rotate(10deg);
+  }
+  .line14 {
+    height: 159px;
+    left: 140px;
+    top: 2447px;
+    transform: rotate(14deg);
+  }
+  .line15 {
+    height: 70px;
+    left: 141px;
+    top: 2540px;
+    transform: rotate(31deg);
+  }
+  .line16 {
+    height: 70px;
+    left: 142px;
+    top: 2670px;
+    transform: rotate(152deg);
+  }
+  .line17 {
+    height: 118px;
+    left: 140px;
+    top: 2674px;
+    transform: rotate(160deg);
+  }
+  .line18 {
+    height: 275px;
+    left: 135px;
+    top: 2677px;
+    transform: rotate(169deg);
+  }
+  .line19 {
+    height: 42px;
+    left: 145px;
+    top: 3086px;
+    transform: rotate(45deg);
+  }
+  .line20 {
+    height: 28px;
+    left: 145px;
+    top: 3140px;
+    transform: rotate(90deg);
+  }
+  .line21 {
+    height: 54px;
+    left: 145px;
+    top: 3174px;
+    transform: rotate(139deg);
+  }
+  .line23 {
+    height: 42px;
+    left: 145px;
+    top: 3566px;
+    transform: rotate(45deg);
+  }
+  .line24 {
+    height: 28px;
+    left: 145px;
+    top: 3625px;
+    transform: rotate(90deg);
+  }
+  .line25 {
+    height: 54px;
+    left: 145px;
+    top: 3662px;
+    transform: rotate(139deg);
+  }
+  .line22,
+  .line26,
+  .line27,
+  .line28,
+  .line29,
+  .line30,
+  .line31,
+  .line32,
+  .line33,
+  .line34,
+  .line35,
+  .line36,
+  .line37,
+  .line38,
+  .line39,
+  .line40,
+  .line41,
+  .line42,
+  .line43 {
+    position: absolute;
+    height: 2px;
+    width: 34px;
+    left: 272px;
+    background-color: #ff0000;
+  }
+  .line22 {
+    width: 34px;
+    left: 125px;
+    top: 3395px;
+  }
+  .line26 {
+    width: 34px;
+    left: 125px;
+    top: 3886px;
+  }
+  .line27 {
+    top: 1700px;
+  }
+  .line28 {
+    top: 1881px;
+  }
+  .line29 {
+    top: 2025px;
+  }
+  .line30 {
+    top: 2125px;
+  }
+  .line31 {
+    top: 2220px;
+  }
+  .line32 {
+    top: 2355px;
+  }
+  .line33 {
+    top: 2454px;
+  }
+  .line34 {
+    top: 2545px;
+  }
+  .line35 {
+    top: 2730px;
+  }
+  .line36 {
+    top: 2825px;
+  }
+  .line37 {
+    top: 2915px;
+  }
+  .line38 {
+    top: 3055px;
+  }
+  .line39 {
+    top: 3155px;
+  }
+  .line40 {
+    top: 3250px;
+  }
+  .line41 {
+    top: 3535px;
+  }
+  .line42 {
+    top: 3643px;
+  }
+  .line43 {
+    top: 3743px;
+  }
+  /* Flowchart Line Ends Here */
+}
