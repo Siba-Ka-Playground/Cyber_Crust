@@ -127,4 +127,23 @@
   #icon {
     margin-left: 0px;
   }
+  .marquee {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+  }
+  .heading {
+    text-align: center;
+    font-size: 20px;
+  }
+  .main-content {
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(245, 245, 245, 0.288);
+    border-radius: 10px;
+  }
 }
